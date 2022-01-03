@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.mamar-kahini{
+    width: 70%;
+    height: 500px;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    margin: 20px auto;
+    border-left: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+    border-bottom: 5px dashed blueviolet;
+    border-radius: 10px ;
+}
+.mamar-kahini h1{
+    text-align: center;
+    border: 5px solid brown;
+    color: #FF2D00;
+    border-radius: 10px;
+}
+.mamar-content{
+    padding: 20px;
+}
+.mamar-content h4{
+    position: relative;
+    font-size: 30px;
+    color: rgb(5, 46, 65);
+    /* color: hsl(500, 100%, 80%); */
+    font-weight: 600;
+    text-align: center;
+}
+.mamar-content .line{
+    margin: 0 auto;
+    width: 400px;
+    height: 4px;
+    background-color: coral;
+}
+.mamar-content h4 strong{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900; 
+}
+.mamar-content p{
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+/* sceond conten start from here */
+.container{
+    width: 400px;
+    background-color: red;
+    padding: 20px;
+    margin: auto;
+    border: 5px solid blue;
+    text-align: center;
+}
+.name{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    border: 5px solid;
+}
